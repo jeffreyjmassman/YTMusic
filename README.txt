@@ -1,10 +1,13 @@
 YTMusic is an extension I created to download music from YouTube
 with the eventual goal to listen to it offline. The motivation is that
 a lot of the music I listen to is only available on YouTube; however, to
-listen to it (especially while running), I have to use up a lot of LTE.
+listen to it (especially while running), I have to use a lot of cellular data.
 Also, there are ads, and the music is unstable in the sense that it can
 be deleted off youtube at any time; it has already happened to some of 
-my songs. It is for these reasons I developed this project.
+my songs.
+
+This extension / framework is currently only designed to run on OSX with Firefox.
+It uses Python and JavaScript (.js files can be found in the .DS_Store file)
 
 SETUP INSTRUCTIONS
 
@@ -32,7 +35,7 @@ INSTRUCTIONS - HOW TO USE
 4. Find YTMusic and click on any folder within; the extension is now active
 5. Open the Mac terminal
 6. Type 'python3 /Users/YOURUSERNAME/Desktop/YTMusic/YTMusic.py'
-    (Obviously, replace YOURUSERNAME with your Mac username lol)
+    (Obviously, replace YOURUSERNAME with your Mac username)
 7. Everything is ready! Navigate to any Youtube video whose audio you wish
     to download, and click the 'Download' button underneath the video,
     next to the 'Subscribe' button; the audio will automatically be added
@@ -88,9 +91,8 @@ UPDATE 7/19/23: What has been accomplished
 4. Re-downloaded summer playlist; icons now included, and used higher quality audio
 5. Console.log()s all cleaned up
 
-Still to-do:
+Still to-do (as of first commit to GitHub):
 
-1. Add a highlight and press effect to the button (UPDATE 7/20/23: Done!)
-2. Fix refresh bug
-3. Also, sometimes the thumbnail does not download; diagnose and solve
-4. Make official server
+1. Fix refresh bug
+2. Also, sometimes the thumbnail does not download; diagnose and solve
+3. Make official server (rather than using a development server)
