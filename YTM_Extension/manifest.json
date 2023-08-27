@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "YTMusic",
+  "version": "1.0",
+
+  "description": "Adds a button to Youtube to download audio to computer",
+
+  "permissions": [
+    "http://*.youtube.com/*",
+    "tabs",
+    "webNavigation",
+    "http://127.0.0.1:8080/Users/jeffmassman/Desktop/YTMusic/YTMusic.py"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["YTMusic.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
