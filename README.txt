@@ -7,7 +7,7 @@ be deleted off youtube at any time; it has already happened to some of
 my songs.
 
 This extension / framework is currently only designed to run on OSX with Firefox.
-It uses Python and JavaScript (.js files can be found in the .DS_Store file)
+It uses Python and JavaScript (.js files can be found in the YTM_Extension file)
 
 SETUP INSTRUCTIONS
 
